@@ -1,3 +1,5 @@
+package 시뮬레이션_구현;
+
 import java.util.*;
 class 청소 {
     public int[] solution(int[][] board, int k){

@@ -1,3 +1,5 @@
+package 시뮬레이션_구현;
+
 import java.util.*;
 class 좌석번호 {
     public int[] solution(int c, int r, int k){

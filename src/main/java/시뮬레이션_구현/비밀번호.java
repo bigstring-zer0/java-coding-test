@@ -1,3 +1,5 @@
+package 시뮬레이션_구현;
+
 import java.util.Arrays;
 
 public class 비밀번호 {

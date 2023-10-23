@@ -1,3 +1,5 @@
+package 시뮬레이션_구현;
+
 import java.util.ArrayList;
 
 public class 최대길이_바이토닉_수열 {

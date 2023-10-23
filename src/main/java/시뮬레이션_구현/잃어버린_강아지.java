@@ -1,3 +1,5 @@
+package 시뮬레이션_구현;
+
 class 잃어버린_강아지 {
     public int solution(int[][] board){
         int n = board.length;

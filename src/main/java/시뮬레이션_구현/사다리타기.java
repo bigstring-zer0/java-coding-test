@@ -1,3 +1,5 @@
+package 시뮬레이션_구현;
+
 import java.util.*;
 class 사다리타기 {
     public char[] solution(int n, int[][] ladder){

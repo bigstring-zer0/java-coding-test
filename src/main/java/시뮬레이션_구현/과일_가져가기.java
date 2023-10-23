@@ -1,3 +1,5 @@
+package 시뮬레이션_구현;
+
 public class 과일_가져가기 {
     public int getMin(int[] fruit) {
         int min = 100;
