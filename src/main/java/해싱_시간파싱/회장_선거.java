@@ -1,6 +1,7 @@
 package 해싱_시간파싱;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -36,7 +37,7 @@ public class 회장_선거 {
                 lst.add(name);
             }
         }
-        lst.sort((x, y) -> x.compareTo(y));
+        Arrays.sort(lst.toArray());
         answer = lst.get(0);
         return answer;
 
