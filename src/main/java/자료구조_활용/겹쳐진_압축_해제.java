@@ -41,7 +41,7 @@ public class 겹쳐진_압축_해제 {
         return answer;
     }
     public static void main(String[] args) {
-        Solution T = new Solution();
+        겹쳐진_압축_해제 T = new 겹쳐진_압축_해제();
         System.out.println(T.solution("3(a2(b))ef"));
         System.out.println(T.solution("2(ab)k3(bc)"));
         System.out.println(T.solution("2(ab3((cd)))"));
