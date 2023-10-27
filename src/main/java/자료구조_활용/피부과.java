@@ -28,7 +28,7 @@ public class 피부과 {
         for (int time = finishTime; time <= 1200; time++) {
             if (pos < n && time == timeTable[pos][0]) {
                 if (waitingQue.isEmpty() && timeTable[pos][0] > finishTime) {
-                    finishTime = timeTable[pos][0];
+                    finishTime = time;
                 }
                 waitingQue.offer(timeTable[pos][1]);
                 pos++;
