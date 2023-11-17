@@ -6,7 +6,6 @@ import java.util.Arrays;
 
 public class 이진수_정렬 {
     public int[] solution(int[] nums) {
-
         int n = nums.length;
         int[] answer = new int[n];
         int[][] res = new int[n][2];
