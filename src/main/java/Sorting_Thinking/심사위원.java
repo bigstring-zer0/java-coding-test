@@ -2,20 +2,27 @@ package Sorting_Thinking;
 
 import java.util.*;
 class 심사위원 {
-    public int getAve(int[] score, int s, int e){
+    public int getAve(int[] score, int start, int end){
         int sum = 0;
-        for(int i = s; i <= e; i++){
+
+        for(int i = start; i <= end; i++){
             sum += score[i];
         }
-        return (int)Math.floor((sum / (e - s + 1)));
+
+        return (int)Math.floor((sum / (end - start + 1)));
     }
+
     public int solution(int[] score, int k){
         int n = score.length;
+
         Arrays.sort(score);
+
         for(int i = 0; i <= n - k; i++){
-            if(score[i + k - 1] - score[i] <= 10)
+            if (score[i + k - 1] - score[i] <= 10) {
                 return getAve(score, i, i + k - 1);
+            }
         }
+
         return 0;
     }
 
