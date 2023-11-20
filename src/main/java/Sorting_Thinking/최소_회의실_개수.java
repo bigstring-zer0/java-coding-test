@@ -17,7 +17,8 @@ class 최소_회의실_개수 {
         for(int[] x : list){
             if (x[1] == 1) {
                 cnt++;
-            } else {
+            }
+            else {
                 cnt--;
             }
             answer = Math.max(answer, cnt);
