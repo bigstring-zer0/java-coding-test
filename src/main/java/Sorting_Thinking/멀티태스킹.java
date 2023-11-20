@@ -42,3 +42,4 @@ class 멀티태스킹 {
         System.out.println(T.solution(new int[]{8, 9, 12, 23, 45, 16, 25, 50}, 100));
     }
 }
+
