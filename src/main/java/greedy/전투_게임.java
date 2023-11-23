@@ -19,7 +19,7 @@ class Info implements Comparable<Info>{
     }
 }
 
-class Solution {
+class 전투_게임 {
     public int[] solution(String[] students){
         int n = students.length;
         int[] answer = new int[n];
@@ -54,7 +54,7 @@ class Solution {
     }
 
     public static void main(String[] args){
-        Solution T = new Solution();
+        전투_게임 T = new 전투_게임();
         System.out.println(Arrays.toString(T.solution(new String[]{"a 20", "b 12", "a 10", "c 11", "e 12"})));
         System.out.println(Arrays.toString(T.solution(new String[]{"a 17", "b 12", "a 10", "c 11", "b 24", "a 25", "b 12"})));
         System.out.println(Arrays.toString(T.solution(new String[]{"b 20", "c 15", "a 200", "b 11", "b 24", "a 25", "b 12"})));
