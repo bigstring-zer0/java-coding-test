@@ -2,24 +2,25 @@ package greedy;
 
 import java.util.*;
 
-class Info implements Comparable<Info>{
-    public int idx;
-    public Character team;
-    public int power;
-
-    Info(int idx, Character team, int power){
-        this.idx = idx;
-        this.team = team;
-        this.power = power;
-    }
-
-    @Override
-    public int compareTo(Info ob){
-        return this.power - ob.power;
-    }
-}
-
 class 전투_게임 {
+
+    class Info implements Comparable<Info>{
+        public int idx;
+        public Character team;
+        public int power;
+
+        Info(int idx, Character team, int power){
+            this.idx = idx;
+            this.team = team;
+            this.power = power;
+        }
+
+        @Override
+        public int compareTo(Info ob){
+            return this.power - ob.power;
+        }
+    }
+
     public int[] solution(String[] students){
         int n = students.length;
         int[] answer = new int[n];
